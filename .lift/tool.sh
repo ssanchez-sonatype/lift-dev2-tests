@@ -12,10 +12,11 @@ function applicable() {
 }
 
 function run() {
-    echo "[{ \"type\": \"Hello World\", \
-            \"message\": \"We are analyzing commit $commit\", \
-            \"file\": \"N/A\", \
-            \"line\": 0 \
+    echo "[{ \"type\": \"Hello Amy\", \
+            \"message\": \"Lift is analyzing commit $commit\", \
+            \"file\": \"file.txt\", \
+            \"line\": 0, \
+            \"details_url\": \"https://example.com/#example\" \
           }]"
 }
 
